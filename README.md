@@ -4,6 +4,16 @@
 
 测试通过的运行环境为安装了wiringPi, i2c的树莓派3B
 
+### run
+
+确保你树莓派上的wiringPi, 还有i2c是ok的, 然后将如下指令粘入shell中
+
+```shell
+git clone https://github.com/Anilople/mpu6050.git
+cd mpu6050
+make run
+```
+
 ### API
 
 在大体上保持了一致, 有部分稍微不同
